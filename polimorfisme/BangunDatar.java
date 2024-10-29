@@ -1,13 +1,6 @@
 package polimorfisme;
 
-public class BangunDatar {
-    public double lua() {
-        System.out.println("Menghitung Luas");
-        return 0;
-    }
-
-    public double keliling() {
-        System.out.println("Menghitung Keliling");
-        return 0;
-    }
+public abstract class BangunDatar {
+    public abstract double luas();
+    public abstract double keliling();
 }
